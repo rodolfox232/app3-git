@@ -34,6 +34,13 @@
  <!--<plugin name ="cordova-plugin-geolocation" source="npm"/>-->
  <!-- Third party plugins-->
  
+  <!--Para accesar a paginas web-->
+  <allow-intent href="https://*/*"/>
+  <acces origin="https://*/*"/>
+  <allow-intent href="https://*/*"/>
+  <acces origin="https://*/*"/>
+  <plugin name="cordova-plugin-whitelist" source="npm"/>
+   
  <!--colocar icono app-->
  <icon src="res/android/mdpi.png" />
  </widget>
